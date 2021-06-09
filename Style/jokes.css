@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/663608.jpg");
+}
+.row, h1 {
+    text-align: center;
+    justify-content: center;
+}
+.btn {
+    margin: 10px;
+}
+img {
+    max-width: 95vw;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+.alert {
+    border: 2px solid black;
+    color: black;
+}
